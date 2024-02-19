@@ -1,0 +1,18 @@
+ICTTD_OPEN_TABLES:
+    train_set_name: "icttd_opentables_train"
+    val_set_name: "icttd_opentables_val"
+    train_image_path: "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/images"
+    val_image_path: "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/images"
+    train_json_path: "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/merged_train.json"
+    val_json_path: "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/merged_test.json"
+    config_file: "configs/icttd_opentables.res50.300pro.yaml"
+    meta:
+        thing_classes: ["table"]
+    resume: False
+    eval_only: False
+    opts: []
+
+num_gpus: 8
+num_machines: 1
+machine_rank: 0
+dist_url: "auto"
