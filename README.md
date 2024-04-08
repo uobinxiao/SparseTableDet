@@ -17,3 +17,25 @@ Use python train_net.py to train the model.
 Use python predict.py to evaluate the model.\
 One command example: \
 python predict.py --input_dir "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/images" --gt_json_path "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/merged_test.json" --config-file "configs/icttd_opentables.res50.300pro.yaml" --weight_path "/data/logs/icttd_opentable_merged_300/model_final.pth"
+
+## Citing
+Please cite our work if you think it is helpful:
+```
+@article{xiao2023table,
+  title={Table detection for visually rich document images},
+  author={Xiao, Bin and Simsek, Murat and Kantarci, Burak and Alkheir, Ala Abu},
+  journal={Knowledge-Based Systems},
+  volume={282},
+  pages={111080},
+  year={2023},
+  publisher={Elsevier}
+}
+```
+```
+@article{xiao2023revisiting,
+  title={Revisiting table detection datasets for visually rich documents},
+  author={Xiao, Bin and Simsek, Murat and Kantarci, Burak and Alkheir, Ala Abu},
+  journal={arXiv preprint arXiv:2305.04833},
+  year={2023}
+}
+```
