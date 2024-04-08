@@ -11,7 +11,7 @@ https://huggingface.co/datasets/uobinxiao/open_tables_icttd_for_table_detection
 ```
 
 ## Requirements
-The codebases are built on top of [Detectron2](https://github.com/facebookresearch/detectron2) and [Sparse-RCNN](https://github.com/PeizeSun/SparseR-CNN/tree/main).
+This codebase is built on top of [Detectron2](https://github.com/facebookresearch/detectron2) and [Sparse-RCNN](https://github.com/PeizeSun/SparseR-CNN/tree/main).
 Follow the instructions [here](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) to install Detectron2.
 
 ## Configuration and Training
