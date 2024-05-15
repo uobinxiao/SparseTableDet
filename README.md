@@ -29,9 +29,11 @@ Set configs/icttd_opentables.res50.300pro.yaml to modify the model parameters an
 Use python train_net.py to train the model.
 
 ## Evaluation
-Use python predict.py to evaluate the model.\
-One command example: \
-python predict.py --input_dir "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/images" --gt_json_path "/data/datasets/hugging_face_td_dataset/open_tables_icttd_for_table_detection/Merged/merged_test.json" --config-file "configs/icttd_opentables.res50.300pro.yaml" --weight_path "/data/logs/icttd_opentable_merged_300/model_final.pth"
+Use python predict.py to evaluate the model.
+
+```
+python predict.py --input_dir <image_dir> --gt_json_path <path of the ground truth json file> --config-file <path of the config yaml file> --weight_path <path of the weight file>
+```
 
 ## Citing
 Please cite our work if you think it is helpful:
