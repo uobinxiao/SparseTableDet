@@ -49,10 +49,12 @@ Please cite our work if you think it is helpful:
 }
 ```
 ```
-@article{xiao2023revisiting,
+@article{xiao2025revisiting,
   title={Revisiting table detection datasets for visually rich documents},
   author={Xiao, Bin and Simsek, Murat and Kantarci, Burak and Alkheir, Ala Abu},
-  journal={arXiv preprint arXiv:2305.04833},
-  year={2023}
+  journal={International Journal on Document Analysis and Recognition (IJDAR)},
+  pages={1--20},
+  year={2025},
+  publisher={Springer}
 }
 ```
